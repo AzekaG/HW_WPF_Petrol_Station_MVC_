@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="DarkTheme" TargetType="Window">
+        <Setter Property="Background" Value="SlateGray"></Setter>
+        <Setter Property="BorderBrush" Value="AliceBlue"></Setter>
+        <Setter Property="Foreground" Value="Red"></Setter>
+    </Style>
+    <Style x:Key="TextStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="Yellow"></Setter>
+        
+    </Style>
+</ResourceDictionary>
